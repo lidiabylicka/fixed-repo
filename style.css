@@ -676,12 +676,14 @@ input::placeholder {
     background-color: #f9f9fc;
     overflow-x: hidden;
     overflow-y: scroll;
-    scale: 80%;
+    /*scale: 80%;*/
     width: inherit;
   }
   .offer {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    height: min-content;
   }
   .offer-description {
     margin: 0em;
