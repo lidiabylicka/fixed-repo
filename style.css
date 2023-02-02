@@ -1,0 +1,701 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: #f9f9fc;
+  align-content: center;
+  margin: 20px 53px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header div {
+  display: flex;
+  font-family: "Lexend Deca", sans-serif;
+  display: flex;
+  align-items: center;
+}
+.header-left {
+  display: flex;
+  gap: 40px;
+}
+.header-buttons {
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px;
+}
+#logoipsum {
+  width: 83px;
+  height: 42px;
+}
+hr {
+  border: 0;
+  border-top: 2px solid #eceef7;
+  margin: 0px -45px 6px -60px;
+}
+#searchbar {
+  border: none;
+  background-color: #f9f9fc;
+  padding: 1px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  padding-left: 20px;
+}
+
+#searchborder {
+  border: solid 1px #b5bdc7;
+  height: 40px;
+  min-width: 310px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+input::placeholder {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #b5bdc7;
+  font-family: "Lexend Deca", sans-serif;
+}
+#searchbutton {
+  display: flex;
+  position: relative;
+  left: 3.5em;
+  top: 0px;
+  border: 1px solid #222426;
+  border-radius: 8px;
+  margin-left: 40px;
+  background-color: #f9f9fc;
+  width: 30px;
+  height: 30px;
+}
+#searchbutton:active {
+  box-shadow: 2px 2px 5px #e4e2e1;
+}
+.offers > div {
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+.offers {
+  overflow: auto;
+  height: 450px;
+}
+
+.offers button {
+  border-radius: 8px;
+  padding: 1%;
+  font-size: 16px;
+  font-family: "Lexend Deca", sans-serif;
+}
+.post {
+  flex-direction: row;
+  gap: 10px;
+  width: 130px;
+  height: 40px;
+  border-radius: 8px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  align-content: center;
+  border-radius: 8px;
+  background-color: #490df4;
+  color: white;
+}
+.post:active {
+  box-shadow: 2px 2px 5px #490df4;
+}
+.sign {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  box-sizing: border-box;
+  gap: 15px;
+  width: 130px;
+  height: 40px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 8px;
+}
+.sign > span {
+  align-self: center;
+}
+.sign:active {
+  box-shadow: 2px 2px 5px #490df4;
+}
+#sign-in {
+  float: right;
+  border: 1px solid #222426;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 30px;
+  width: 30px;
+}
+.links * {
+  font-size: 16px;
+  color: #222426;
+  text-decoration: none;
+  display: inline;
+  justify-content: space-between;
+}
+.links a {
+  margin-top: 31px;
+  margin-bottom: 31px;
+  line-height: 20px;
+  font-weight: 400;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  display: inline;
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  gap: 40px;
+}
+.positions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 20px 0px 6px 0px;
+  background-color: black;
+  background: #222426;
+  border-radius: 10px;
+  height: 78px;
+}
+.positions-left {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  gap: 20px;
+}
+.seniority {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.positions {
+  display: flex;
+  justify-content: space-between;
+}
+.positions > div > div > button {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 300;
+  background-color: #222426;
+  outline-color: white;
+  color: white;
+  border-color: white;
+  padding: 10px;
+  border-width: 1px;
+  border-radius: 10px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  padding: 7px 24px 7px 20px;
+  gap: 8px;
+  flex: none;
+}
+
+#button-1 {
+  box-shadow: -5px 0px #31e8ff;
+  margin-left: 20px;
+}
+#button-2 {
+  box-shadow: -5px 0px #00ff93;
+}
+#button-3 {
+  box-shadow: -5px 0px #8415ff;
+}
+#button-4 {
+  box-shadow: -5px 0px #fd4dc7;
+}
+#button-5 {
+  box-shadow: -5px 0px #ff8227;
+}
+#button-6 {
+  box-shadow: -5px 0px #fdff00;
+}
+/* spent 3 hrs tryng to get buttons 1-8 selected
+  as nthchild() - no success. had to add IDs. reason?
+  how to make a correct nthchildselector?*/
+
+#button-7 {
+  width: 87px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2px;
+}
+
+#button-8 {
+  border-color: #b5bdc7;
+  color: #b5bdc7;
+  width: 159px;
+  display: flex;
+  justify-content: space-between;
+  justify-self: end;
+  padding-right: 2px;
+}
+.positions-arrow {
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 30px;
+  width: 30px;
+}
+
+.button-7-dropdown:hover .dropdown-content-positions {
+  display: block;
+  height: min-content;
+  position: sticky;
+  box-sizing: content-box;
+  border: 1px solid #e4e2e1;
+}
+.dropdown-content-positions > ul > a:active {
+  color: #b5bdc7;
+  text-decoration: none;
+}
+.dropdown-content-positions > ul > a:link {
+  color: #b5bdc7;
+  text-decoration: none;
+}
+.dropdown-content-positions > ul > a:hover {
+  color: #b5bdc7;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.dropdown-content-positions {
+  display: none;
+  position: absolute;
+  background-color: #222426;
+  z-index: 1;
+  border-radius: 8px;
+}
+.languages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  height: 78px;
+  font-family: "Lexend Deca", sans-serif;
+}
+.languages div {
+  font-family: "Lexend Deca", sans-serif;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  gap: 6px;
+}
+.languages div button {
+  font-family: "Lexend Deca", sans-serif;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-width: 1px;
+  border-radius: 8px;
+  min-height: 40px;
+}
+.languages div button:hover {
+  background-color: #222426;
+}
+.languages-more {
+  margin-right: 20px;
+}
+.more-options {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 120px;
+}
+
+.languages img {
+  height: 23.6px;
+  width: 23.6px;
+  padding: 3px;
+}
+
+.languages-arrow {
+  border: 1px solid #000;
+  border-radius: 8px;
+  height: 30px;
+  width: 30px;
+}
+.more-32 {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2px;
+  width: 87px;
+}
+.more-options-div {
+  justify-content: end;
+}
+.filters {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+.filters > div > button {
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: row;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 2px;
+}
+.filters div {
+  align-items: center;
+  position: relative;
+  flex-direction: row;
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 20px;
+  box-sizing: border-box;
+}
+.filters img* {
+  width: 8px;
+  height: 8px;
+  padding: 2px;
+}
+.filters-left {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.filters-left button:hover {
+  background-color: #490df4;
+}
+.filters-sort {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  min-width: 220px;
+  max-width: 400px;
+}
+.filters-sort button {
+  display: flex;
+  flex-direction: row;
+  width: 40px;
+  height: 40px;
+}
+.filters-sort button:hover {
+  background-color: #490df4;
+}
+
+.filters-sort {
+  position: relative;
+  display: flex;
+}
+.dropdown-content {
+  display: none;
+  position: block;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  border-radius: 8px;
+}
+.dropdown-content a:hover {
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.offers {
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9fc;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.offer {
+  border: 1px solid #222426;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+  height: 94px;
+  background-color: #fff;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.offer:nth-child(5n + 1) {
+  box-shadow: -3px 0px #8415ff, -3.5px 0px 0px 0.5px #222426,
+    0px 2px 8px #16204b30;
+}
+.offer:nth-child(5n + 2) {
+  box-shadow: -3px 0px #ff8227, -3.5px 0px 0px 0.5px #222426,
+    0px 2px 8px #16204b30;
+}
+.offer:nth-child(5n + 3) {
+  box-shadow: -3px 0px #fdff00, -3.5px 0px 0px 0.5px #222426,
+    0px 2px 8px #16204b30;
+}
+.offer:nth-child(5n + 4) {
+  box-shadow: -3px 0px #00ff93, -3.5px 0px 0px 0.5px #222426,
+    0px 2px 8px #16204b30;
+}
+.offer:nth-child(5n + 5) {
+  box-shadow: -3px 0px #31e8ff, -3.5px 0px 0px 0.5px #222426,
+    0px 2px 8px #16204b30;
+}
+.netguru {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  padding: 12px 32px 12px 20px;
+}
+.remote-img {
+  width: 86px;
+  height: 20px;
+  padding-left: 12px;
+}
+.offer-description {
+  margin: 0px 200px 22px 36px;
+}
+.offer-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #222426;
+  display: flex;
+  flex-direction: row;
+  width: 368px;
+  margin: 20px 0px 12px 0px;
+}
+.offer-name-details {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.offer-money {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-top: 20px;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: #490df4;
+}
+
+.small-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  color: #222426;
+  justify-content: space-between;
+}
+.offer-apply {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: 20px 22px 23px 0px;
+}
+.offer-apply > button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 140px;
+  height: 40px;
+  background: #ffffff;
+  border: 2px solid #222426;
+  box-shadow: 0px 2px 8px rgb(22 32 75 / 19%);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #222426;
+  border-radius: 8px;
+}
+.offer-apply > button:active {
+  cursor: pointer;
+  background-color: #490df4;
+}
+
+@media only screen and (max-width: 900px) {
+  .body {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+  }
+  .page {
+    margin: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #header {
+    display: flex;
+    flex-direction: column;
+  }
+  #searchborder {
+    margin: 0px;
+  }
+  .header-left {
+    display: flex;
+    flex-direction: column;
+    height: 15em;
+    gap: 1em;
+    scale: 70%;
+  }
+  .header-buttons {
+    flex-direction: column;
+    justify-items: center;
+    scale: 70%;
+    width: 20vw;
+    gap: 1em;
+  }
+  .links {
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 0px;
+    position: relative;
+  }
+  links div {
+    max-height: fit-content;
+  }
+  .links a {
+    margin: 1em;
+    line-height: 20px;
+    font-weight: 400;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline;
+    justify-content: space-between;
+  }
+
+  .positions {
+    background-color: #f9f9fc;
+    margin: 0px;
+    max-width: 700px;
+    scale: 70%;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+  }
+  .positions-left {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 700px;
+    height: 129px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  hr {
+    display: none;
+  }
+  .languages {
+    display: flex;
+    scale: 70%;
+    flex-grow: 1;
+    margin: 0px;
+    align-items: center;
+    background-color: transparent;
+    height: 8em;
+    font-family: "Lexend Deca", sans-serif;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border: 0.5px solid #490df4;
+    border-radius: 8px;
+    box-shadow: 2px 2px #490df4;
+  }
+  .languages div {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    gap: 3px;
+  }
+  .filters {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin: 1em;
+    scale: 80%;
+  }
+  .offers {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9fc;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scale: 80%;
+    width: inherit;
+  }
+  .offer {
+    display: flex;
+    flex-direction: row;
+  }
+  .offer-description {
+    margin: 0em;
+  }
+  .offer-money {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    align-items: center;
+  }
+  .positions {
+    display: none;
+  }
+  .nav-positions {
+    display: inline-block;
+  }
+}

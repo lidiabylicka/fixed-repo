@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Praca domowa CSS</title>
+  </head>
+   <div class="page">
+      <div id="header">
+        <div class="header-left">
+        <img src="images/logo-ipsum.png" alt="logo" id="logoipsum" />
+        <div id="searchborder">
+          <input
+            id="searchbar"
+            type="text"
+            name="search"
+            placeholder="Job, type or location..."
+          />
+          <button id="searchbutton">
+            <img src="images/icon _ search.svg" alt="search"/>
+          </button>
+        </div>
+
+        <div class="links">
+          <div>
+            <a href="offers"> Offers </a>
+          </div>
+          <div>
+            <a href="faq"> FAQ </a>
+          </div>
+          <div>
+            <a href="terms"> Terms </a>
+          </div>
+          <div>
+            <a href="privacy-policies"> Privacy Policies </a>
+          </div>
+        </div>
+      </div>
+      <div class="header-buttons">
+        <div>
+          <button type="submit" class="post">
+            <span>Post a job</span>
+          </button>
+        </div>
+        <div>
+          <button type="submit" class="sign">
+            <span>Sign in</span
+            ><img id="sign-in" src="images/arrow-down.png" alt="arrow down"/>
+          </button>
+        </div>
+      </div>
+      </div>
+    <div>
+      <hr/>
+    </div>
+    <!-- ALL THE BUTTONS IN BLACK-->
+    <!--class=nav-positions for media query small scr-->
+    <div class="positions">
+      <div class="positions-left">
+      <div>
+        <button id="button-1">
+          <img src="images/menu-item.png" alt="folder"/>
+          Frontend
+        </button>
+      </div>
+      <div>
+        <button id="button-2">
+          <img src="images/menu-item.png" alt="folder"/>
+          Architect
+        </button>
+      </div>
+      <div>
+        <button id="button-3">
+          <img src="images/menu-item.png" alt="folder"/>
+          DevOps
+        </button>
+      </div>
+      <div>
+        <button id="button-4">
+          <img src="images/menu-item.png" alt="folder" />
+          Fullstack
+        </button>
+      </div>
+      <div>
+        <button id="button-5">
+          <img src="images/menu-item.png" alt="folder" />
+          Analityk
+        </button>
+      </div>
+      <div>
+        <button id="button-6">
+          <img src="images/menu-item.png" alt="folder" />
+          Tester
+        </button>
+      </div>
+      <div class="button-7-dropdown">
+        <button id="button-7">
+          +6
+          <img class="positions-arrow" src="images/icon _ arrow down.png" alt="more"/>
+        </button>
+        <div class="dropdown-content-positions">
+          <ul><a href="">Junior Frontend </a></ul>
+          <ul><a href=""> Junior Tester </a></ul>
+            <ul><a href=""> Junior Inne </a></ul>
+              <ul><a href=""> Junior Inne </a></ul>
+                <ul><a href=""> Junior Inne </a></ul>
+        </div>
+      </div>
+    </div>
+    <div class="seniority">
+      <div>
+        <button id="button-8">
+          Seniority
+          <img class="positions-arrow" src="images/icon _ arrow down.png" alt="dropdown"/>
+        </button>
+      </div>
+    </div>
+    </div>
+    <!--ALL THE ICONS IN WHITE-->
+    <div class="languages">
+      <div class="languages-all">
+      <div>
+        <button class="languages-icons">
+          <img
+            src="images/git.png"
+          />
+        </button>
+        Git
+      </div>
+      <div>
+        <button>
+          <img
+            src="images/js-logo.PNG"
+      
+          />
+        </button>
+        Vue
+      </div>
+      <div>
+        <button>
+          <img
+            src="images/angular.png"
+      
+          />
+        </button>
+        Angular
+      </div>
+      <div>
+        <button>
+          <img
+            src="images/git.png"
+      
+          />
+        </button>
+        JS
+      </div>
+      <div>
+        <button>
+          <img
+            src="images/js-logo.PNG"
+      
+          />
+        </button>
+        CSS
+      </div>
+      <div>
+        <button>
+          <img
+            src="images/git.png"
+      
+          />
+        </button>
+        HTML
+      </div>
+      <div>
+        <button>
+          <img
+            src="images/js-logo.PNG"
+      
+          />
+        </button>
+        Agile
+      </div>
+      <div>
+        <button>
+          <img
+            src="images/angular.png"
+      
+          />
+        </button>
+        Git
+      </div>
+      <div>
+        <button class="more-32">
+          +32
+          <img src="images/arrow-down.png" class="languages-arrow"/>
+        </button>
+      </div>
+    </div>
+    <div class="languages-more">
+      <div class="more-options-div">
+        <button class="more-options">
+          100% Remote
+        </button>
+        <button class="more-options">
+            Price Range
+        </button>
+      </div>
+    </div>
+    </div>
+  </div>
+    <div class="filters">
+      <div class="filters-left">
+      <button>
+          <img
+            src="images/icon filter.png" alt="filter"
+          />
+      </button>
+      <span>
+        Filters
+      </span>
+      </div>
+      <div class="filters-sort">
+        <div class="dropdown">Sort by:
+          <a href="latest" >latest<img src="images/arrow-down.png" alt="dropdown"/></a>
+          <div class="dropdown-content">
+            <li><a href="popular">most popular</a></li>
+            <li><a href="best">best salary</a></li>
+          </div>
+      </div>
+          <button>
+        <img
+            src="images/icon filter.png" alt="filter"
+          />
+      </button>
+      
+      <button>
+          <img src="images/box.png" style="width: 30px; height: 30px" />
+      </button>
+      </div>
+    </div>
+    <!--OFFERS-->   
+    <div class="offers">
+        <div class="offer">
+          <div class="offer-logo">
+            <img src="images/netguru.png" class="netguru" alt="netguru"/>          </div>
+          <div class="offer-description">
+            <span class="offer-name">
+                Remote Ruby on Rails Developer
+              <img src="images/remote.png" class="remote-img"/>
+            </span>
+            <div class="offer-name-details">
+            <span>
+              <text style="font-size: 12px"> Netguru S.A. </text>
+            &nbsp
+          </span>
+          <span>
+            <img src="images/divider.png" />&nbsp
+            <img src="images/location.png" />
+            <text style="font-size: 12px"> Poznan, Poland </text>
+            &nbsp
+          </span>
+          <span> <img src="images/divider.png" /> &nbsp </span>
+          <span> <img src="images/mid.png" /> &nbsp </span>
+          <span> <img src="images/divider.png" /> &nbsp </span>
+          <span> <img src="images/new-logo.png" /> &nbsp </span>
+            </span>
+          </div>
+          </div>
+          <div class="offer-money">
+            <span>
+              9 350 - 14 000 PLN net 💰 &NonBreakingSpace;
+              <img src="images/heart stroke.png" />
+            </span>
+            <span class="small-text">
+            <b>Ruby</b>
+            <p>Javascript</p>
+            <p>SQL</p>
+            </span>
+          </div>
+          <div class="offer-apply">
+            <button type="sumbit">Quickly Apply</button>
+          </div>
+        </div>
+          <div class="offer">
+            <div class="offer-logo">
+              <img src="images/netguru.png" class="netguru" alt="netguru"/>          </div>
+            <div class="offer-description">
+              <span class="offer-name">
+                  Senior Fullstack Developer
+              </span>
+              <div class="offer-name-details">
+              <span>
+                <text style="font-size: 12px"> Netguru S.A. </text>
+              &nbsp
+            </span>
+            <span>
+              <img src="images/divider.png" />&nbsp
+              <img src="images/location.png" />
+              <text style="font-size: 12px"> Poznan, Poland </text>
+              &nbsp
+            </span>
+            <span> <img src="images/divider.png" /> &nbsp </span>
+            <span> <img src="images/mid.png" /> &nbsp </span>
+            <span> <img src="images/divider.png" /> &nbsp </span>
+            <span> <img src="images/new-logo.png" /> &nbsp </span>
+              </span>
+            </div>
+            </div>
+            <div class="offer-money">
+              <span>
+                9 350 - 14 000 PLN net 💰 &NonBreakingSpace;
+                <img src="images/heart stroke.png" />
+              </span>
+              <span class="small-text">
+              <b>Ruby</b>
+              <p>Javascript</p>
+              <p>SQL</p>
+              </span>
+            </div>
+            <div class="offer-apply">
+              <button type="sumbit">Quickly Apply</button>
+            </div>
+          </div>
+          <div class="offer">
+            <div class="offer-logo">
+              <img src="images/netguru.png" class="netguru" alt="netguru"/>          </div>
+            <div class="offer-description">
+              <span class="offer-name">
+                  Remote Ruby on Rails Developer
+                <img src="images/remote.png" class="remote-img"/>
+              </span>
+              <div class="offer-name-details">
+              <span>
+                <text style="font-size: 12px"> Netguru S.A. </text>
+              &nbsp
+            </span>
+            <span>
+              <img src="images/divider.png" />&nbsp
+              <img src="images/location.png" />
+              <text style="font-size: 12px"> Poznan, Poland </text>
+              &nbsp
+            </span>
+            <span> <img src="images/divider.png" /> &nbsp </span>
+            <span> <img src="images/mid.png" /> &nbsp </span>
+            <span> <img src="images/divider.png" /> &nbsp </span>
+            <span> <img src="images/new-logo.png" /> &nbsp </span>
+              </span>
+            </div>
+            </div>
+            <div class="offer-money">
+              <span>
+                9 350 - 14 000 PLN net 💰 &NonBreakingSpace;
+                <img src="images/heart stroke.png" />
+              </span>
+              <span class="small-text">
+              <b>Ruby</b>
+              <p>Javascript</p>
+              <p>SQL</p>
+              </span>
+            </div>
+            <div class="offer-apply">
+              <button type="sumbit">Quickly Apply</button>
+            </div>
+          </div>
+          <div class="offer">
+            <div class="offer-logo">
+              <img src="images/netguru.png" class="netguru" alt="netguru" />          </div>
+            <div class="offer-description">
+              <span class="offer-name">
+                  Remote Devops in Netguru
+                <img src="images/remote.png" class="remote-img"/>
+              </span>
+              <div class="offer-name-details">
+              <span>
+                <text style="font-size: 12px"> Netguru S.A. </text>
+              &nbsp
+            </span>
+            <span>
+              <img src="images/divider.png" />&nbsp
+              <img src="images/location.png" />
+              <text style="font-size: 12px"> Poznan, Poland </text>
+              &nbsp
+            </span>
+            <span> <img src="images/divider.png" /> &nbsp </span>
+            <span> <img src="images/mid.png" /> &nbsp </span>
+            <span> <img src="images/divider.png" /> &nbsp </span>
+            <span> <img src="images/new-logo.png" /> &nbsp </span>
+              </span>
+            </div>
+            </div>
+            <div class="offer-money">
+              <span>
+                9 350 - 14 000 PLN net 💰 &NonBreakingSpace;
+                <img src="images/heart stroke.png" />
+              </span>
+              <span class="small-text">
+              <b>Ruby</b>
+              <p>Javascript</p>
+              <p>SQL</p>
+              </span>
+            </div>
+            <div class="offer-apply">
+              <button type="sumbit">Quickly Apply</button>
+            </div>
+          </div>
+          <div class="offer">
+            <div class="offer-logo">
+              <img src="images/netguru.png" class="netguru" alt="netguru" />          </div>
+            <div class="offer-description">
+              <span class="offer-name">
+                  Remote Ruby on Rails Developer
+                <img src="images/remote.png" class="remote-img"/>
+              </span>
+              <div class="offer-name-details">
+              <span>
+                <text style="font-size: 12px"> Netguru S.A. </text>
+              &nbsp
+            </span>
+            <span>
+              <img src="images/divider.png" />&nbsp
+              <img src="images/location.png" />
+              <text style="font-size: 12px"> Poznan, Poland </text>
+              &nbsp
+            </span>
+            <span> <img src="images/divider.png" /> &nbsp </span>
+            <span> <img src="images/mid.png" /> &nbsp </span>
+            <span> <img src="images/divider.png" /> &nbsp </span>
+            <span> <img src="images/new-logo.png" /> &nbsp </span>
+              </span>
+            </div>
+            </div>
+            <div class="offer-money">
+              <span>
+                9 350 - 14 000 PLN net 💰 &NonBreakingSpace;
+                <img src="images/heart stroke.png" />
+              </span>
+              <span class="small-text">
+              <b>Ruby</b>
+              <p>Javascript</p>
+              <p>SQL</p>
+              </span>
+            </div>
+            <div class="offer-apply">
+              <button type="sumbit">Quickly Apply</button>
+            </div>
+          </div>
+          <div class="offer">
+            <div class="offer-logo">
+              <img src="images/netguru.png" class="netguru" alt="netguru" />          </div>
+            <div class="offer-description">
+              <span class="offer-name">
+                  Remote Ruby on Rails Developer
+                <img src="images/remote.png" class="remote-img"/>
+              </span>
+              <div class="offer-name-details">
+              <span>
+                <text style="font-size: 12px"> Netguru S.A. </text>
+              &nbsp
+            </span>
+            <span>
+              <img src="images/divider.png" />&nbsp
+              <img src="images/location.png" />
+              <text style="font-size: 12px"> Poznan, Poland </text>
+              &nbsp
+            </span>
+            <span> <img src="images/divider.png" /> &nbsp </span>
+            <span> <img src="images/mid.png" /> &nbsp </span>
+            <span> <img src="images/divider.png" /> &nbsp </span>
+            <span> <img src="images/new-logo.png" /> &nbsp </span>
+              </span>
+            </div>
+            </div>
+            <div class="offer-money">
+              <span>
+                9 350 - 14 000 PLN net 💰 &NonBreakingSpace;
+                <img src="images/heart stroke.png" />
+              </span>
+              <span class="small-text">
+              <b>Ruby</b>
+              <p>Javascript</p>
+              <p>SQL</p>
+              </span>
+            </div>
+            <div class="offer-apply">
+              <button type="sumbit">Quickly Apply</button>
+            </div>
+          </div>
+          <div class="offer">
+            <div class="offer-logo">
+              <img src="images/netguru.png" class="netguru" alt="netguru"/>          </div>
+            <div class="offer-description">
+              <span class="offer-name">
+                  Remote Ruby on Rails Developer
+                <img src="images/remote.png" class="remote-img"/>
+              </span>
+              <div class="offer-name-details">
+              <span>
+                <text style="font-size: 12px"> Netguru S.A. </text>
+              &nbsp
+            </span>
+            <span>
+              <img src="images/divider.png" />&nbsp
+              <img src="images/location.png" />
+              <text style="font-size: 12px"> Poznan, Poland </text>
+              &nbsp
+            </span>
+            <span> <img src="images/divider.png" /> &nbsp </span>
+            <span> <img src="images/mid.png" /> &nbsp </span>
+            <span> <img src="images/divider.png" /> &nbsp </span>
+            <span> <img src="images/new-logo.png" /> &nbsp </span>
+              </span>
+            </div>
+            </div>
+            <div class="offer-money">
+              <span>
+                9 350 - 14 000 PLN net 💰 &NonBreakingSpace;
+                <img src="images/heart stroke.png" />
+              </span>
+              <span class="small-text">
+              <b>Ruby</b>
+              <p>Javascript</p>
+              <p>SQL</p>
+              </span>
+            </div>
+            <div class="offer-apply">
+              <button type="sumbit">Quickly Apply</button>
+            </div>
+          </div>
+          <div class="offer">
+            <div class="offer-logo">
+              <img src="images/netguru.png" class="netguru" alt="netguru"/>          </div>
+            <div class="offer-description">
+              <span class="offer-name">
+                  Remote Ruby on Rails Developer
+                <img src="images/remote.png" class="remote-img"/>
+              </span>
+              <div class="offer-name-details">
+              <span>
+                <text style="font-size: 12px"> Netguru S.A. </text>
+              &nbsp
+            </span>
+            <span>
+              <img src="images/divider.png" />&nbsp
+              <img src="images/location.png" />
+              <text style="font-size: 12px"> Poznan, Poland </text>
+              &nbsp
+            </span>
+            <span> <img src="images/divider.png" /> &nbsp </span>
+            <span> <img src="images/mid.png" /> &nbsp </span>
+            <span> <img src="images/divider.png" /> &nbsp </span>
+            <span> <img src="images/new-logo.png" /> &nbsp </span>
+              </span>
+            </div>
+            </div>
+            <div class="offer-money">
+              <span>
+                9 350 - 14 000 PLN net 💰 &NonBreakingSpace;
+                <img src="images/heart stroke.png" />
+              </span>
+              <span class="small-text">
+              <b>Ruby</b>
+              <p>Javascript</p>
+              <p>SQL</p>
+              </span>
+            </div>
+            <div class="offer-apply">
+              <button type="sumbit">Quickly Apply</button>
+            </div>
+          </div>
+    </div>
+  </body>
+</html>
